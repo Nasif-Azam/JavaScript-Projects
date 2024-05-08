@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+    overflow: hidden;
+}
+.menu_item{
+    display: flex;
+    padding: 50px;
+}
+.tittle{}
+.section_center{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+}
+.underline{
+    width: 70px;
+    height: 5px;
+    background-color: chocolate;
+    display: inline-block;
+}
+.filter_btn{
+    border: 2px solid chocolate !important;
+    margin: 5px;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 2%;
+    border: 3px solid chocolate;
+}
+.header{
+    display: inline-flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    
+}
+.item_text{
+    border-top: 2px solid #000;
+}
